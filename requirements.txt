@@ -1,0 +1,8 @@
+robotframework
+robotframework-seleniumlibrary
+robotframework-appiumlibrary
+robotframework-cucumberjsonlibrary
+selenium
+appium-python-client
+pytest-bdd
+pabot
