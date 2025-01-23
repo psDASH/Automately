@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.11.3 on win32)" generated="2025-01-23T11:58:16.747725" rpa="false" schemaversion="5">
+<suite id="s1" name="Mobile App Test" source="C:\Users\prem_\Documents\Projects\Automately\tests\android\sanity\mobile_app_test.robot">
+<test id="s1-t1" name="As a user, I want to launch the mobile application" line="9">
+<kw name="Given the Appium server is running">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-01-23T11:58:16.926724" level="FAIL">Resolving variable '${get_appium_server_url()}' failed: Variable '${get_appium_server_url}' not found.</msg>
+<arg>Starting the Appium server: ${get_appium_server_url()}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="FAIL" start="2025-01-23T11:58:16.926724" elapsed="0.000000">Resolving variable '${get_appium_server_url()}' failed: Variable '${get_appium_server_url}' not found.</status>
+</kw>
+<kw name="Close Application" owner="AppiumLibrary" type="TEARDOWN">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2025-01-23T11:58:16.927726" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2025-01-23T11:58:16.927726" elapsed="0.002001">No application is open</status>
+</kw>
+<msg time="2025-01-23T11:58:16.930728" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-23T11:58:16.930728" level="FAIL">No application is open</msg>
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="FAIL" start="2025-01-23T11:58:16.927726" elapsed="0.004000">No application is open</status>
+</kw>
+<status status="FAIL" start="2025-01-23T11:58:16.925727" elapsed="0.005999">Resolving variable '${get_appium_server_url()}' failed: Variable '${get_appium_server_url}' not found.
+
+Also keyword teardown failed:
+No application is open</status>
+</kw>
+<kw name="When I launch the application">
+<status status="NOT RUN" start="2025-01-23T11:58:16.931726" elapsed="0.000000"/>
+</kw>
+<kw name="Then I should see the application loaded successfully">
+<status status="NOT RUN" start="2025-01-23T11:58:16.932725" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-01-23T11:58:16.924725" elapsed="0.008000">Resolving variable '${get_appium_server_url()}' failed: Variable '${get_appium_server_url}' not found.
+
+Also keyword teardown failed:
+No application is open</status>
+</test>
+<status status="FAIL" start="2025-01-23T11:58:16.749725" elapsed="0.184001"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Mobile App Test" id="s1" pass="0" fail="1" skip="0">Mobile App Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-01-23T11:58:16.923727" level="ERROR">Error in file 'C:\Users\prem_\Documents\Projects\Automately\tests\android\sanity\mobile_app_test.robot' on line 3: Library 'libraries\CustomLibrary.py' does not exist.</msg>
+<msg time="2025-01-23T11:58:16.930728" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+</errors>
+</robot>

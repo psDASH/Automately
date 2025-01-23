@@ -1,4 +1,4 @@
-from libraries.common import open_page, verify_title
+from libraries.Common import open_page, verify_title
 
 @when("I navigate to {url}")
 def navigate_to_url(context, url):
