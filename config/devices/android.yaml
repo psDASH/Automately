@@ -1,0 +1,6 @@
+appium:
+  server_url: "http://localhost:4723/wd/hub"
+  capabilities:
+    platformName: "Android"
+    deviceName: "emulator-5554"
+    app: "merchantAppV7.apk"

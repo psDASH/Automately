@@ -1,8 +1,10 @@
-robotframework
-robotframework-seleniumlibrary
-robotframework-appiumlibrary
-robotframework-cucumberjsonlibrary
+#robotframework
+#robotframework-seleniumlibrary
+#robotframework-appiumlibrary
+#robotframework-cucumberjsonlibrary
+behave
 selenium
 appium-python-client
-pytest-bdd
+#pytest-bdd
 pabot
+pyyaml
